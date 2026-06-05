@@ -38,4 +38,4 @@ a paper-based logging process that was always out of date.
 - **Tech:** Flutter + Riverpod (Clean Architecture), Google ML Kit OCR, geolocator + Google
   Maps, Node.js/Express + PostgreSQL backend, Shorebird OTA updates.
 
-📄 [Read the case study](projects/trailer-manager.md)
+📄 [Read the case study](projects/trailer-manager.md) · 💻 [Source code](https://github.com/nexzitar/LagerKontroll)

@@ -14,7 +14,7 @@ is a single camera capture: the app reads the license plate from the photo with 
 OCR, captures the GPS position, and uses geofencing to figure out which terminal the
 trailer is standing in — replacing a paper-based logging process that was always out of date.
 
-**Repository:** private (available on request)
+**Repository:** https://github.com/nexzitar/LagerKontroll
 
 ---
 
