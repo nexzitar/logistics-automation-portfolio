@@ -20,3 +20,22 @@ radio calls, whiteboards, and printed container lists with a shared, real-time t
 - **Tech:** Django 5.2.7, Daphne ASGI + SSE, pandas/pdfplumber, Docker + Nginx + Let's Encrypt.
 
 📄 [Read the case study](projects/kippen-todo-system.md) · 💻 [Source code](https://github.com/nexzitar/Posten)
+
+### Trailer Manager — Depot Trailer Tracking with Plate OCR & Geofencing
+
+A Flutter mobile app that keeps a live database of every trailer in the depot. Adding a
+trailer is a single camera capture — the app reads the license plate with on-device OCR,
+records the GPS position, and uses geofencing to detect which terminal it's in — replacing
+a paper-based logging process that was always out of date.
+
+- **One-capture entry** — a single photo creates a record with image, plate, GPS, and terminal.
+- **Automatic license plate OCR** — on-device ML Kit text recognition auto-fills the trailer
+  number (Norwegian, Swedish, and Dutch plate formats), with no typing and no cloud service.
+- **GPS + geofencing** — exact coordinates per entry and automatic terminal detection
+  (LSO / B1–B5 / OT), plus an interactive satellite map with status-colored markers.
+- **Status, history & roles** — quick status changes with a full timestamped audit trail,
+  role-based access (Guest/User/Admin), and SMS-based onboarding.
+- **Tech:** Flutter + Riverpod (Clean Architecture), Google ML Kit OCR, geolocator + Google
+  Maps, Node.js/Express + PostgreSQL backend, Shorebird OTA updates.
+
+📄 [Read the case study](projects/trailer-manager.md)
