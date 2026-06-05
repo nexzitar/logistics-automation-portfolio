@@ -1,5 +1,14 @@
 # Kippen TODO System — Terminal Task Management & Automation
 
+![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/Django-5.2.7-092E20?logo=django&logoColor=white)
+![Daphne](https://img.shields.io/badge/Daphne-ASGI-44B78B)
+![Server-Sent Events](https://img.shields.io/badge/Realtime-SSE-FF6F00)
+![pandas](https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?logo=nginx&logoColor=white)
+![Let's Encrypt](https://img.shields.io/badge/HTTPS-Let's%20Encrypt-003A70?logo=letsencrypt&logoColor=white)
+
 A web platform for coordinating daily work at a logistics terminal. It replaces radio
 calls, whiteboards, and printed container lists with a shared, real-time task board,
 an approval workflow, built-in messaging, and an automated import pipeline that turns
@@ -71,3 +80,18 @@ instead of being printed, read out, and manually tracked.
 - Removes radio confirmation and paper lists from the daily task loop.
 - Gives coordinators a live, auditable record of work and approvals.
 - Automates the most repetitive step (turning schedules into tasks) end-to-end.
+
+## Screenshots
+
+> Add screenshots / short GIFs to `projects/images/` and reference them below. Suggested
+> shots: the real-time task board, the approval workflow, the "Innhenting" filter view,
+> and the messaging panel.
+
+<!-- Uncomment and update paths once the images are added:
+![Real-time task board](images/kippen-task-board.png)
+![Approval workflow](images/kippen-approval.png)
+![Innhenting auto-generated tasks](images/kippen-innhenting.png)
+![Messaging](images/kippen-messaging.png)
+-->
+
+_Screenshots coming soon._
