@@ -39,3 +39,21 @@ a paper-based logging process that was always out of date.
   Maps, Node.js/Express + PostgreSQL backend, Shorebird OTA updates.
 
 📄 [Read the case study](projects/trailer-manager.md) · 💻 [Source code](https://github.com/nexzitar/LagerKontroll)
+
+### Task Dispatcher — Fair SMS Task Dispatch for Coordinators
+
+A Flutter mobile app that helps coordinators fairly hand out tasks to helpers via SMS.
+The app automatically picks the next eligible worker using round-robin rotation, applies
+a personalized cooldown based on each worker's speed or equipment, and keeps a full
+assignment history — replacing ad-hoc calls and mental rotation tracking.
+
+- **Fair dispatch** — round-robin selection with per-worker cooldown weights and automatic
+  fallback when everyone is busy.
+- **Shift & lunch management** — on/off shift toggles, per-shift task counts, and extended
+  lunch cooldowns that stack on existing waits.
+- **One-tap SMS** — compose a task, preview the next worker, and send via the native SMS app.
+- **Offline-first** — SQLite on device, no backend required for daily dispatch operations.
+- **Tech:** Flutter + Riverpod (Clean Architecture), SQLite, native SMS integration,
+  Shorebird OTA + optional static APK update server.
+
+📄 [Read the case study](projects/task-dispatcher.md) · 💻 [Source code](https://github.com/nexzitar/TaskDispatcher)
